@@ -1,0 +1,153 @@
+{
+  "nodes": {
+    "acvd-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1675879807,
+        "narHash": "sha256-M8n1FCDycmxDkdvE+7Q8nd8SAxO2IkpYfN9n6k41Tig=",
+        "owner": "educelab",
+        "repo": "acvd",
+        "rev": "9efaeb4d18f66d484b52d6088b09b94f0ae97c5c",
+        "type": "gitlab"
+      },
+      "original": {
+        "owner": "educelab",
+        "ref": "9efaeb4d",
+        "repo": "acvd",
+        "type": "gitlab"
+      }
+    },
+    "bvh-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1612875910,
+        "narHash": "sha256-rO3ELbFJOfk0H4ta4C+ZWJ+0gYu93uzviX7vzz7Seqo=",
+        "owner": "madmann91",
+        "repo": "bvh",
+        "rev": "19dde37a0f14f3874741825c311b944b3e4c7bed",
+        "type": "github"
+      },
+      "original": {
+        "owner": "madmann91",
+        "ref": "19dde37",
+        "repo": "bvh",
+        "type": "github"
+      }
+    },
+    "googletest-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1609180326,
+        "narHash": "sha256-+6Pd3vHg2xXnrg2BiN2iJvVNt2MAoXXB2hCSIxdz/nk=",
+        "owner": "google",
+        "repo": "googletest",
+        "rev": "389cb68b87193358358ae87cc56d257fd0d80189",
+        "type": "github"
+      },
+      "original": {
+        "owner": "google",
+        "ref": "389cb68",
+        "repo": "googletest",
+        "type": "github"
+      }
+    },
+    "indicators-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1681736132,
+        "narHash": "sha256-vdiVqnc6OyPBqy/JVANRfCqEQYEQxjBmTWzUoonwWaA=",
+        "owner": "p-ranav",
+        "repo": "indicators",
+        "rev": "4ea716116d37a4797feca81104b20a3aad3e0b63",
+        "type": "github"
+      },
+      "original": {
+        "owner": "p-ranav",
+        "ref": "4ea7161",
+        "repo": "indicators",
+        "type": "github"
+      }
+    },
+    "json-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1660309566,
+        "narHash": "sha256-SUdhIV7tjtacf5DkoWk9cnkfyMlrkg8ZU7XnPZd22Tw=",
+        "owner": "nlohmann",
+        "repo": "json",
+        "rev": "bc889afb4c5bf1c0d8ee29ef35eaaf4c8bef8a5d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nlohmann",
+        "ref": "v3.11.2",
+        "repo": "json",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1697009197,
+        "narHash": "sha256-viVRhBTFT8fPJTb1N3brQIpFZnttmwo3JVKNuWRVc3s=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "01441e14af5e29c9d27ace398e6dd0b293e25a54",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "openabf-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1614695456,
+        "narHash": "sha256-MzhJMRcG2ChFYqts1ZHNwQ7fxDeD0Hw9Db9YTpnU9Y8=",
+        "owner": "educelab",
+        "repo": "OpenABF",
+        "rev": "63afa9e323bcb8f9bf0fe1f683429fa10f558d22",
+        "type": "gitlab"
+      },
+      "original": {
+        "owner": "educelab",
+        "ref": "63afa9e3",
+        "repo": "OpenABF",
+        "type": "gitlab"
+      }
+    },
+    "root": {
+      "inputs": {
+        "acvd-src": "acvd-src",
+        "bvh-src": "bvh-src",
+        "googletest-src": "googletest-src",
+        "indicators-src": "indicators-src",
+        "json-src": "json-src",
+        "nixpkgs": "nixpkgs",
+        "openabf-src": "openabf-src",
+        "smgl-src": "smgl-src"
+      }
+    },
+    "smgl-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1684517188,
+        "narHash": "sha256-/GQC/ZnuSAomvVNrBNXrZ5Q/ln4B3VU7tRC28MkeHTs=",
+        "owner": "educelab",
+        "repo": "smgl",
+        "rev": "61425333f75747d47515b0b06e2aa46cdfa337f7",
+        "type": "gitlab"
+      },
+      "original": {
+        "owner": "educelab",
+        "ref": "61425333",
+        "repo": "smgl",
+        "type": "gitlab"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
